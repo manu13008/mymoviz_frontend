@@ -43,6 +43,7 @@ useEffect(() => {
 // console.log('manu le front')
 
 fetch('https://mymoviz-backend-dusky.vercel.app/movies')
+// fetch('http://localhost:3000/movies')
 .then(response =>  response.json())
 .then(data=> {
   console.log(data)
